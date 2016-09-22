@@ -1,13 +1,13 @@
 from setuptools import setup
 
-setup(name='azurerm',
-      version='0.6.7',
+setup(name='mcazurerm',
+      version='0.1.0',
       description='Azure Resource Manager REST wrappers',
-      url='http://github.com/gbowerman/azurerm',
-      author='sendmarsh',
-      author_email='guybo@outlook.com',
+      url='http://github.com/pjshi23/mcazurerm',
+      author='Stan Peng',
+      author_email='pjshi23@gmail.com',
       license='MIT',
-      packages=['azurerm'],
+      packages=['mcazurerm'],
       install_requires=[
           'adal',
           'requests',
